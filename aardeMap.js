@@ -4,7 +4,7 @@ var left = document.getElementById("left");
 
 var map = L.map('map', {
     crs: L.CRS.Simple,
-    minZoom: -1,
+    minZoom: -.75,
     maxZoom: 3.5,
     zoomSnap: 0.25
 });
