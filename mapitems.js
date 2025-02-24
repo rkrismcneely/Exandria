@@ -10,7 +10,7 @@ let towns = {
             },
             "geometry": {
                 "type":"Point",
-                "coordinates": [776.74114, 749.637082]
+                "coordinates": [856.693451,266.674031]
             }
         },
         {"type": "Feature","properties": {"name": "South Ablein",
