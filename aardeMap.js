@@ -4,8 +4,8 @@ var left = document.getElementById("left");
 
 var map = L.map('map', {
     crs: L.CRS.Simple,
-    minZoom: 1,
-    maxZoom: 4.5,
+    minZoom: -1,
+    maxZoom: 3.5,
     zoomSnap: 0.25
 });
 var bounds = [[0,0],[4609,8192]]; //8192x4609
