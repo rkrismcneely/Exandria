@@ -1,16 +1,16 @@
 let towns = {
     "type": "FeatureCollection",
     "features": [
-        {"type": "Feature","properties": {"name": "Yarth",
+        {"type": "Feature","properties": {"name": "Tz'arrm",
                 "displayIcon": "iconsVillage",
-                "population": "2600",
-                "info": "Yarth is a small town at the edge of the Ruggengrat Mountains. Part of the kingdom of Danuthan, it boasts a few farms and some mining activity in the foothills.\nRecently the True Blood of Earth has sent a representative, Mehael, to try and proselytise their human-first messsage in the area.\nNeil has a contact here, and the local smith is a quiet but friendly fellow.",
-                "friends": "Neil's contact (Winthrop), village smith",
-                "foes": "Mehael, of the True Blood of Earth."
+                "population": "???",
+                "info": "This is the place where Tryvelg thinks he landed.",
+                "friends": "Nobody. Tyrvelg doesn't make friends easily.",
+                "foes": "No one, unless he gets caught."
             },
             "geometry": {
                 "type":"Point",
-                "coordinates": [633.364588,725.193434]
+                "coordinates": [776.74114, 749.637082]
             }
         },
         {"type": "Feature","properties": {"name": "South Ablein",
