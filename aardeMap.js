@@ -4,11 +4,11 @@ var left = document.getElementById("left");
 
 var map = L.map('map', {
     crs: L.CRS.Simple,
-    minZoom: -.75,
+    minZoom: -.5,
     maxZoom: 3.5,
     zoomSnap: 0.25
 });
-var bounds = [[0,0],[1125,2000]]; //8192x4609
+var bounds = [[0,0],[4609,8192]]; //8192x4609
 var image = L.imageOverlay('images/LayerMap.jpg',bounds).addTo(map);
 map.setView([718.882071,749.859311], 1.5);
 
