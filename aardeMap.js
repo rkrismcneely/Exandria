@@ -8,8 +8,8 @@ var map = L.map('map', {
     maxZoom: 3.5,
     zoomSnap: 0.25
 });
-var bounds = [[0,0],[1000,1000]];
-var image = L.imageOverlay('images/LayerMap.png',bounds).addTo(map);
+var bounds = [[0,0],[8192,4609]]; //8192x4609
+var image = L.imageOverlay('images/LayerMap.jpg',bounds).addTo(map);
 map.setView([718.882071,749.859311], 1.5);
 
 //Measurement tool
