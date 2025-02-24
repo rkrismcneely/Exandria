@@ -1,4 +1,4 @@
-var updateNum = 3
+var updateNum = 4
 console.log("Update ",updateNum);
 var left = document.getElementById("left");
 
@@ -13,22 +13,22 @@ var image = L.imageOverlay('images/LayerMap.jpg',bounds).addTo(map);
 map.setView([718.882071,749.859311], 1.5);
 
 //Measurement tool
-var options = {
-    position: 'topleft',
-    lengthUnit: {
-        display: 'km',
-        factor: 0.0002, //set to 0.0002 for km, 
-        decimal: 1,
-        label: 'Distance:'
-    },
-    angleUnit: {
-        display: '&deg;',           // This is the display value will be shown on the screen. Example: 'Gradian'
-        decimal: 2,                 // Bearing result will be fixed to this value.
-        factor: null,                // This option is required to customize angle unit. Specify solid angle value for angle unit. Example: 400 (for gradian).
-        label: 'Bearing:'
-    },
-};
-L.control.ruler(options).addTo(map);
+// var options = {
+//     position: 'topleft',
+//     lengthUnit: {
+//         display: 'km',
+//         factor: 0.0002, //set to 0.0002 for km, 
+//         decimal: 1,
+//         label: 'Distance:'
+//     },
+//     angleUnit: {
+//         display: '&deg;',           // This is the display value will be shown on the screen. Example: 'Gradian'
+//         decimal: 2,                 // Bearing result will be fixed to this value.
+//         factor: null,                // This option is required to customize angle unit. Specify solid angle value for angle unit. Example: 400 (for gradian).
+//         label: 'Bearing:'
+//     },
+// };
+// L.control.ruler(options).addTo(map);
 
 console.log("Zoom = ",map.getZoom());
 
